@@ -1,6 +1,6 @@
 const playwright = require("playwright-aws-lambda");
 
-export default (req, res) => {
+export default async (req, res) => {
   let browser = null;
 
   try {
