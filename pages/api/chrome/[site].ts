@@ -4,8 +4,6 @@ const playwright = require("playwright-aws-lambda");
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   let browser = null;
 
-  console.log(playwright)
-
   try {
     const browser = await playwright.launchChromium({ headless: true });
     const context = await browser.newContext();
