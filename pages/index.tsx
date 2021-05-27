@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <h1 className={styles.title}>
         <a href="/api/chrome">
-          Hit <code>/api/chrome</code> to test!
+          Hit <code>/api/chrome/google</code> to test!
         </a>
       </h1>
     </div>
